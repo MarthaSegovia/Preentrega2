@@ -22,10 +22,9 @@ background-color: #93C7BA;
     box-shadow: none;
 }
 .nav-item{
-    font-size: 19px;
-    font-weight: bolder;
-    color: darkcyan;
-  
+    font-size: 18px;
+    color: grey;
+
 }
 
 
@@ -36,16 +35,19 @@ h1 {
     text-align: center;
     font-family: 'Tangerine', cursive;
     padding-bottom: 2px;
+    margin: 35px 20px 35px 20px;
 }
 
 .parrafos{
-    color: grey
+    color: grey;
+    font-size: 20px;
 }
 
 .frases {
     font-family: 'Tangerine', cursive;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
+    margin: 35px 20px 35px 20px;
     color: darkcyan;
     text-align: center;
 }
@@ -111,7 +113,7 @@ h3{
 
 .piedepaginaredes a{
     text-decoration: none;
-    margin: 40px 20px 40px 20px;
+    margin: 35px 20px 35px 20px;
     font-size: 14px;
     color: grey;
 }
@@ -125,7 +127,19 @@ main iframe{
     margin: 60px;
 }
 
+/*Colecciones*/
 
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+
+}
+
+
+.card-text{
+    font-size: 12px;
+}
 
 /*video y mapa*/
 
