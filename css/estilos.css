@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Tangerine:wght@700&display=swap');
 
 body {
-    background-color: bisque;
+    background-color: white;
 }
 
 /*encabezado*/
@@ -21,7 +21,12 @@ background-color: #93C7BA;
 .navbar-toggler:focus{
     box-shadow: none;
 }
-
+.nav-item{
+    font-size: 19px;
+    font-weight: bolder;
+    color: darkcyan;
+  
+}
 
 
 h1 {
@@ -31,8 +36,20 @@ h1 {
     text-align: center;
     font-family: 'Tangerine', cursive;
     padding-bottom: 2px;
-
 }
+
+.parrafos{
+    color: grey
+}
+
+.frases {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkcyan;
+    text-align: center;
+}
+
 
 ul {
     display: flex;
@@ -77,23 +94,28 @@ main p {
 
 
 /*footer*/
+h3{
+    font-size: 18px;
+    margin: 10px;
+}
 
-.piePagina {
+.piedepaginaUno {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-   
-
+    background-color: rgb(198, 242, 255);
+    color: grey;
+    border-top: darkcyan 3px solid;
 }
 
-.piePagina li{
-    
-    margin: 5px 200px 10px 200px;
-    margin-inline: ;
-    font-size: 15px;
-    color: antiquewhite;
+.piedepaginaredes a{
+    text-decoration: none;
+    margin: 40px 20px 40px 20px;
+    font-size: 14px;
+    color: grey;
 }
+
 /*Productos*/
 .contenedorProductos img{
     width: 300px;
@@ -103,21 +125,22 @@ main iframe{
     margin: 60px;
 }
 
-/*mapa*/
 
-.mapa{
+
+/*video y mapa*/
+
+.padrevideomapa{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-}
-
+   }
+ 
 .video{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    width: 50%;
+    border-radius: 10px;
 }
-
+.mapa{
+    width: 50%;
+    border-radius: 10px;
+}
